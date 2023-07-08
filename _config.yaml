@@ -2,7 +2,7 @@
 profile:
   first_name: Pavan Kumar
   last_name: PHV
-  picture: https://cdn.glitch.global/c4403bf0-7f2b-4077-992d-b08762d304aa/00.JPG?v=1688807448109   # Hosted picture
+  picture: static/img/pavankumar.JPG  # Local picture
   # picture: static/img/rodo_2021.png  # Local picture
   contact:
     address_one: Banglore
@@ -145,35 +145,27 @@ projects:
     title: flask-resume-template
     subtitle: A resume template built with Flask
     description: An easy-to-configure simple resume template built with Flask and Bootstrap.
-    link: https://flask-resume-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-resume-template/
+    link: https://github.com/phvpavankumar/flask-resume-template
+    github: https://github.com/phvpavankumar/flask-resume-template
     img: flask-resume-template.png
     tags: [Flask, Python, Bootstrap]
   item2:
-    title: DLaaS
-    subtitle: Google Colab Notebooks
-    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
-    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
-    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
-    img: riiaa.png
-    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
+    title: Deep Learning Based Sentiment Analysis for Malayalam, Tamil and Kannada Languages
+    subtitle: Natural Language Processing (NLP)
+    description: To classify the underlying sentiments of text as positive, negative, mixed feelings, Native, non-Native, I performed sentiment analysis with NLP techniques integrated with different Deep-learning based architectures.
+    link: https://github.com/phvpavankumar/Sentiment-Analysis-for-Malayalam-Tamil-and-Kannada-Languages
+    github: https://github.com/phvpavankumar/Sentiment-Analysis-for-Malayalam-Tamil-and-Kannada-Languages
+    img: Sentiment_analyisis.png
+    tags: [Python, NLP, Images, Data Preprocessing, Sentiment analyisis, dravidian languages, Twitter, YouTube, Tamil, Malayalam, Kannada]
   item3:
-    title: impipes
-    subtitle: Python package
-    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
-    link: https://impipes.readthedocs.io/en/latest/
-    github: https://github.com/RodolfoFerro/impipes
-    img: impipes.png
-    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
+    title: Automatic Plant Watering System
+    subtitle: A Automatic Plant Watering System prototype pipeline created to support the irrigation system.
+    description: Basically to automate the irrigation, I  developed a  automate water monitoring system which will automate the irrigation system in the absence of human being also.
+    link: hhttps://github.com/phvpavankumar/Automatic-Plant-Watering-System
+    github: https://github.com/phvpavankumar/Automatic-Plant-Watering-System
+    img: Automatic_Plant_Watering_System.png
+    tags: [C++, Embedded systems, Moisture sensors, Adruino UNO]
   item4:
-    title: MNIST Web Classifier
-    subtitle: A CNN served as a web platform
-    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
-    link: https://flask-micro-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-micro-template
-    img: keras-mnist.png
-    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
-  item5:
     title: EmojiMerida
     subtitle: Google Colab Notebook
     description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
@@ -181,7 +173,7 @@ projects:
     github:
     img: data-merida.png
     tags: [Python, Computer Vision, Keras, Neural Networks]
-  item6:
+  item5:
     title: PythonBaseAPI
     subtitle: API template built with Flask
     description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
@@ -189,7 +181,7 @@ projects:
     github: https://github.com/RodolfoFerro/PythonBaseAPI
     img: python-base-api.png
     tags: [Flask, Python, API, scikit-learn]
-  item7:
+  item6:
     title: flask-micro-template
     subtitle: A micro template built with Flask
     description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
@@ -197,7 +189,7 @@ projects:
     github: https://github.com/RodolfoFerro/flask-micro-template
     img: flask-micro-template.png
     tags: [Flask, Python, Bootstrap]
-  item8:
+  item7:
     title: moltransform
     subtitle: Python package
     description: Molecular transformations for graphic displaying using Cartesian coordinates.
@@ -205,7 +197,7 @@ projects:
     github: https://github.com/RodolfoFerro/moltransform
     img: moltransform.png
     tags: [Python, PyPI, Molecules, Rigid Transformations]
-  item9:
+  item8:
     title: FitbitVersa-SimpleOmnitrix
     subtitle: Fitbit Versa Clockface
     description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
