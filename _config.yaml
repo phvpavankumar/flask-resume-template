@@ -1,0 +1,231 @@
+# Profile section
+profile:
+  first_name: Pavan Kumar
+  last_name: PHV
+  picture: https://cdn.glitch.global/c4403bf0-7f2b-4077-992d-b08762d304aa/00.JPG?v=1688807448109   # Hosted picture
+  # picture: static/img/rodo_2021.png  # Local picture
+  contact:
+    address_one: Banglore
+    phone: +91-9912552285
+  email: phvpavankumar@gmail.com
+  description: |
+    I am a AI Engineer at IGNIRAIUM. (INDIA) and I also collaborate as a AI Consultant for the Sony Banglore.
+    
+    I've worked as a Python Dev at Amrita School of Engineering and served as a research assistant in applied AI at the AI Research Center, part of the Amrita Vishwa Vidhyapeetam in Coimbatore. 
+    
+    I am (currently) a Sony AI Consultatnt Expert in Machine Learning.
+
+
+# Social section
+social:
+  website: https://pavan-kumar.glitch.me/
+  github: https://github.com/phvpavankumar
+  # twitter: https://twitter.com/rodo_ferro/
+  linkedin: https://www.linkedin.com/in/pavan-kumar-phv/
+  # facebook:
+  # dev: https://dev.to/rodolfoferro
+  # medium: https://medium.com/@FerroRodolfo
+
+
+# Experience section
+experience:
+  item3:
+    position: AI Consultant
+    company: SONY INDIA Pvt Ltd
+    from: Feb 2023 
+    to: Present
+    description: >
+      Working as an AI consultant for Sony Group Corporation, commonly known as simply Sony (stylized as SONY), is a Japanese multinational conglomerate corporation headquartered in Minato, Tokyo, Japan. Company focused on largest manufacturer of image sensors, the second largest camera manufacturer, and is among the semiconductor sales leaders.
+    link: https://www.sony.co.in/homepage
+  item2:
+    position: AI Engineer
+    company: IGNITARIUM Pvt Ltd
+    from: Aug 2021
+    to: Jan 2023
+    description: >
+       AI Engineer in IGINARIUM, contributed with the models developed and the AI pipelines (we develped a Python package for it).
+    link: https://ignitarium.com/
+  item1:
+    position: AI Research Assistant
+    company: Amrita School of Engineering
+    from: August 2020
+    to: August 2022
+    description: >
+      On charge of doing research and building neural networks for computer vision problems, focused on applications and solutions for real industry issues. Deployed trained models to production.
+  reference: https://www.amrita.edu/research/
+
+
+# Education section
+education:
+  item1:
+    institution: Amrita School of Engineering
+    program: Master of Data Science
+    description: Persued Post graduation dgree in Data Science, majorly focused on Computer Vision and NLP problems. Published my thesis in Sentiment analysis in dravidian multi lingual languages.
+    from: August 2020
+    to: August 2022
+  item2:
+    institution: Amrita School of Engineering
+    program: Bachelors in Mechanical Enginering.
+    description: Major in Mathematics with Mathematical Computing as terminal area.
+    from: August 2015
+    to: July 2019
+
+
+# Community section:
+community:
+  item0:
+    institution: Analytics and Data Science Career
+    program: Analytics and Data Science Career Community Builder
+    description: "To enhance the importance of Artifical Inteligence collaborated as a Analytics and Data Science Career community builder."
+    from: October 2022
+    to: Present
+    link: https://www.linkedin.com/groups/6744146/
+  reference: https://www.linkedin.com/groups/6744146/?highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A6744146-6986234744703258624&q=highlightedFeedForGroups
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - markdown
+  - github
+  - gitlab
+  - bitbucket
+  - docker
+  - microsoft
+  - google
+  - google-drive
+  - slack
+  - linux
+  - raspberry-pi
+  - apple
+extra_skills:
+  # - Facebook Messenger, Telegram, and SMS bots
+  - Python APIs and AI model development.
+  - Image processing and computer vision
+  - Machine learning and deep learning
+  - Several Python packages – OpenCV, NumPy, TensorFlow, Pytorch etc.
+  - Expert in deploying AI models in Embedded devices - Raspy, google dev board and Sony's micro controller IMX500. 
+
+# Blogs section
+blogs:
+  item0:
+    name: Solar Panel defect detection
+    blog: Solar Panel defect detection using AI techniques for beginers, March 2023.
+    material:
+    link: https://ignitarium.com/solar-panel-defect-detection-using-ai-techniques/
+  item1:
+    name: Object detection with yolo-v5
+    blog: Developing a AI model having no knowledge in AI domie, October 2022.
+    material:
+    link: https://www.linkedin.com/posts/pavan-kumar-phv_yolov5-yaml-yolov5x-activity-6986232295217127424-3gC6?utm_source=share&utm_medium=member_desktop
+  item2:
+    name: GitLab for beginners
+    blog: Getting started with GitLab for beginners, August 2021.
+    material:
+    link: https://ignitarium.com/gitlab-for-beginners/
+  item3:
+    name: github tutorials for beginners
+    blog: Getting started with github for beginers, August 2021.
+    material:
+    link: https://ignitarium.com/github-for-beginners/
+  item4:
+    name: git tutorials for beginners. 
+    blog: Getting started with git commands for beginers, July 2021.
+    material:
+    link: https://ignitarium.com/git-commands-for-beginners/
+    # reference: https://rodolfoferro.xyz/resume/
+
+
+# Projects section
+projects:
+  item1:
+    title: flask-resume-template
+    subtitle: A resume template built with Flask
+    description: An easy-to-configure simple resume template built with Flask and Bootstrap.
+    link: https://flask-resume-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-resume-template/
+    img: flask-resume-template.png
+    tags: [Flask, Python, Bootstrap]
+  item2:
+    title: DLaaS
+    subtitle: Google Colab Notebooks
+    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
+    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
+    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    img: riiaa.png
+    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
+  item3:
+    title: impipes
+    subtitle: Python package
+    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
+    link: https://impipes.readthedocs.io/en/latest/
+    github: https://github.com/RodolfoFerro/impipes
+    img: impipes.png
+    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
+  item4:
+    title: MNIST Web Classifier
+    subtitle: A CNN served as a web platform
+    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: keras-mnist.png
+    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
+  item5:
+    title: EmojiMerida
+    subtitle: Google Colab Notebook
+    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
+    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
+    github:
+    img: data-merida.png
+    tags: [Python, Computer Vision, Keras, Neural Networks]
+  item6:
+    title: PythonBaseAPI
+    subtitle: API template built with Flask
+    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
+    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
+    github: https://github.com/RodolfoFerro/PythonBaseAPI
+    img: python-base-api.png
+    tags: [Flask, Python, API, scikit-learn]
+  item7:
+    title: flask-micro-template
+    subtitle: A micro template built with Flask
+    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: flask-micro-template.png
+    tags: [Flask, Python, Bootstrap]
+  item8:
+    title: moltransform
+    subtitle: Python package
+    description: Molecular transformations for graphic displaying using Cartesian coordinates.
+    link: https://pypi.org/project/moltransform/
+    github: https://github.com/RodolfoFerro/moltransform
+    img: moltransform.png
+    tags: [Python, PyPI, Molecules, Rigid Transformations]
+  item9:
+    title: FitbitVersa-SimpleOmnitrix
+    subtitle: Fitbit Versa Clockface
+    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
+    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
+    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
+    img: simple-omnitrix.png
+    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
+
+
+# Certifications and awards section
+awards:
+  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
+  - Academy and Technology – Statal Youth Prize Guanajuato 2018
+  - Quantum Computing 101 – IBM Q Certification Badge 2018
+  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
+  - 1st. Place – SWITCH Hackathon 2017
+  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
+  - 1st. Place – 12th. Creativity and Innovation Contest at the University of Guanajuato 2017
+  - 1st. Place – Centro Fox National Hackathon 2017
+  - 1st. Place – 6th. Creativity and Innovation Contest, DCEA-UG 2016
+  - Silver Award – SynBio Giant Jamboree – iGEM  2016
+  - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
+  - 1st. Place – Fintech – HackBajío Hackathon 2016
