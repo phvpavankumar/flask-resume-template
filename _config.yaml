@@ -142,13 +142,13 @@ blogs:
 # Projects section
 projects:
   item1:
-    title: flask-resume-template
-    subtitle: A resume template built with Flask
+    title: flask-portfolio-template
+    subtitle: A portfolio template built with Flask.
     description: An easy-to-configure simple resume template built with Flask and Bootstrap.
     link: https://github.com/phvpavankumar/flask-resume-template
     github: https://github.com/phvpavankumar/flask-resume-template
     img: flask-resume-template.png
-    tags: [Flask, Python, Bootstrap]
+    tags: [Flask, Python, Bootstrap, CSS, JavaScript]
   item2:
     title: Deep Learning Based Sentiment Analysis for Malayalam, Tamil and Kannada Languages
     subtitle: Natural Language Processing (NLP)
@@ -166,45 +166,13 @@ projects:
     img: Automatic_Plant_Watering_System.png
     tags: [C++, Embedded systems, Moisture sensors, Adruino UNO]
   item4:
-    title: EmojiMerida
-    subtitle: Google Colab Notebook
-    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
-    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
-    github:
-    img: data-merida.png
-    tags: [Python, Computer Vision, Keras, Neural Networks]
-  item5:
-    title: PythonBaseAPI
-    subtitle: API template built with Flask
-    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
-    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
-    github: https://github.com/RodolfoFerro/PythonBaseAPI
-    img: python-base-api.png
-    tags: [Flask, Python, API, scikit-learn]
-  item6:
-    title: flask-micro-template
-    subtitle: A micro template built with Flask
-    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
-    link: https://flask-micro-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-micro-template
-    img: flask-micro-template.png
-    tags: [Flask, Python, Bootstrap]
-  item7:
-    title: moltransform
-    subtitle: Python package
-    description: Molecular transformations for graphic displaying using Cartesian coordinates.
-    link: https://pypi.org/project/moltransform/
-    github: https://github.com/RodolfoFerro/moltransform
-    img: moltransform.png
-    tags: [Python, PyPI, Molecules, Rigid Transformations]
-  item8:
-    title: FitbitVersa-SimpleOmnitrix
-    subtitle: Fitbit Versa Clockface
-    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
-    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
-    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
-    img: simple-omnitrix.png
-    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
+    title: Convex Optimization of Image Denoising using CVXPY layers
+    subtitle: Image Denoising using CVXPY layers
+    description: The primary objective is to analyze the performance of Convex Optimization CVXPY layers solver in modified VGG-16 Net for Image Classification of Noisy MNIST dataset.
+    link: https://github.com/phvpavankumar/Convex-Optimization-of-Image-Denoising-using-CVXPY-layers
+    github: https://github.com/phvpavankumar/Convex-Optimization-of-Image-Denoising-using-CVXPY-layers
+    img: cvxpy_denoising.png
+    tags: [Python, Computer Vision, Keras, Neural Networks, cvxpy, denoising, MNIST dataset, VGG16]
 
 
 # Certifications and awards section
